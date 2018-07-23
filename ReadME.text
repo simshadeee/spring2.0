@@ -1,0 +1,10 @@
+COMMANDS TO RUN:
+
+COMMAND TO RETRAIN MODEL:
+$ python train_network.py --dataset images --model normal_broken.model
+
+COMMAND TO TEST MODEL:
+$ python test_network.py --dataset images --model normal_broken.model
+
+
+TO CHANGE THE IMAGES USED SWITCH THE IMAGE FILE FOR THE WANTED FILE AFTER THE "--dataset"
